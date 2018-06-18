@@ -1,0 +1,27 @@
+{
+  "name": "nem_skeleton",
+  "version": "1.0.0",
+  "description": "A task management tool for miracle community",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "excel4node": "^1.3.6",
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.2",
+    "mongoose": "^5.0.12",
+    "pm2": "^2.10.4",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
